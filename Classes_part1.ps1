@@ -1,4 +1,6 @@
-﻿$Properties = @{
+﻿
+
+$Properties = @{
   “FirstName” = “Stéphane”
   “LastName” = “van Gulick”
   “WebSite” = “www.powershelldistrict.com”
