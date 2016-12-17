@@ -2,9 +2,10 @@
 Class Employee {
 
 
-    [ValidatePattern("^[a-z]+$")]
+
+    [ValidatePattern("^[a-zA-Z]+$")]
     [string]$FirstName
-    [ValidatePattern("^[a-z]+$")]
+    [ValidatePattern("^[a-zA-Z]+$")]
     [string]$LastName
 
     hidden [string]$UserName
